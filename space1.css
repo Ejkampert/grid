@@ -2,25 +2,45 @@
 body {
 	background-image: url("bg.png");
 	font-family: Tahoma;
+	display: inline;
+
 }
 
 .frame{
 	background-color: rgba(0,128,0,0.4);
-	
+	width: 600px;
+	margin-left: 500px;
+	height: 745px;
+	padding: 10px;
+    
+
+
 	/* put css-rules in this ccs-block here below */
 	
 }
 
 h1{
 	background-color: rgba(0,32,0,0.4);
-	line-height: 40px;
+	line-height: 30px;
+	font-size: 32px;
+	margin-bottom: 30px;
+	padding: 30px;
+	
+	
+
 	
 	/* put css-rules in this ccs-block here below */
 	
 }
 
 h2 {
-	line-height: 30px;
+	line-height: 50px;
+	border-style: solid;
+	border-color: purple;
+	border-width: 3px;
+	margin-bottom: 10px;
+	
+
 	
 	/* put css-rules in this ccs-block here below */
 	
@@ -28,8 +48,22 @@ h2 {
 
 p{
 	background-color: rgba(256,256,0,0.4);
-	line-height: 20px;
+	line-height: 18px;
+	padding: 15px;
+	margin-bottom: 10px;
+
+	
 	
 	/* put css-rules in this ccs-block here below */
+
+}
+
+article {
+	width: 600px;
+	height: 100px;
+	display: inline;
+	
+
+	
 
 }
